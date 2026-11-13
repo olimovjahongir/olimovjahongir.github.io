@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jahongir Olimov | Student Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#home">JO</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="themeButton" type="button" aria-label="Switch color theme">Dark mode</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="avatar" aria-label="Jahongir Olimov initials">JO</div>
+        <div>
+          <p class="small-title">Hello, I am</p>
+          <h1>Jahongir Olimov</h1>
+          <p class="hero-text">A first-year IT student at Inha University in Tashkent. I am learning programming, networking and other subjects related to technology.</p>
+          <a class="main-link" href="#about">More about me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow">
+        <h2>About me</h2>
+        <p>I am interested in software engineering and want to improve my coding skills. At university I study technical and academic subjects. In my free time I like learning new things about computers and technology.</p>
+      </div>
+    </section>
+
+    <section class="section soft" id="courses">
+      <div class="container">
+        <h2>My courses</h2>
+        <div class="course-grid">
+          <div class="card">Calculus</div>
+          <div class="card">Physics 1</div>
+          <div class="card">Physical Experiment</div>
+          <div class="card">Academic English Reading 1</div>
+          <div class="card">Introduction to IT</div>
+          <div class="card">Object-Oriented Programming</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <span>01</span>
+            <h3>Network Detective</h3>
+            <p>I used networking commands and Wireshark to learn about IP addresses, DNS and routes.</p>
+          </article>
+          <article class="project-card">
+            <span>02</span>
+            <h3>Personal Homepage</h3>
+            <p>This is my first personal webpage made with HTML, CSS and a little JavaScript.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section network" id="network">
+      <div class="container narrow">
+        <h2>Network detective</h2>
+        <p>In Introduction to IT I learned how DNS, IP addresses, routers and HTTPS work. I also opened a packet capture and compared normal HTTP traffic with encrypted HTTPS traffic.</p>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p>You can see my work and future projects on GitHub.</p>
+        <a class="github-link" href="https://github.com/olimovjahongir" target="_blank" rel="noreferrer">github.com/olimovjahongir</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">Made by Jahongir Olimov · <span id="year"></span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
